@@ -1,1 +1,1 @@
-DELETE FROM products WHERE ID="16";
+DELETE FROM products WHERE ID="18";

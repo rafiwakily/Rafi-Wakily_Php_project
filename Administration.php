@@ -7,14 +7,6 @@
 </head>
 <body>
 <?php
-/* 
-This will be a page ACCESSIBLE ONLY to ADMINISTRATOR users !!!
-All the other users should be KICKED OUT of this page!!!
-
-This page is made with two purpose:
-    1. Administrator users MUST be able to DELETE other USERS!
-    2. Administrator users MUST be able to ADD new products to our webpage!
-*/
 
 include_once "sessionCheck.php";
 include_once "credentials.php";
