@@ -1,0 +1,190 @@
+#navigationBar {
+  display: flex;
+  background-color: rgb(0, 174, 255);
+  justify-content: space-between;
+  
+}
+
+#navigationTittle {
+  background-color:rgb(0, 174, 255);
+  font-family: cursive;
+  font-size: large;
+  padding: 20px;
+  
+}
+
+#navigationLinks a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: large;
+   ruby-overhang: auto;
+  background:rgb(0,255,200);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+#navigationLinks {
+  text-decoration: none;
+  padding: 20px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+}
+
+#navigationLanguage {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 255, 200);
+  
+}
+
+#Signup {
+  align-items: center;
+  background-color:rgb(255, 0, 0);
+  background: rgb(0, 255, 200);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  padding: 40px;
+}
+
+#loginButton,
+#logoutButton,
+#signupButton,
+#addButton,
+#deleteButton {
+  ruby-overhang: auto;
+  background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  padding: 30px;
+  cursor: pointer;
+}
+
+#loginButton:hover,
+#signupButton:hover,
+#addButton:hover,
+#deleteButton:hover,
+#logoutButton:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+#loginButton:active,
+#signupButton:active,
+#addButton:active,
+#deleteButton:active,
+#logoutButton:active {
+  background-color: rgb(0, 162, 255);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#login {
+  background-color: rgb(0, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#login form {
+  background-color: rgb(0,255,200);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+#login form div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  
+}
+#AllProducts {
+  justify-items: inherit;
+  justify-items: center;
+  flex-direction: row-reverse;
+  display: flex;  
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex: wrap;
+  columns: auto auto auto auto;
+  
+}
+
+.Product {
+  justify-items: inherit;
+    width: 600px;
+    height: 500px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(0, 162, 255);
+    flex-direction: row-reverse;
+    columns: auto auto auto auto;
+    
+}
+.background{
+  background-color: rgb(0, 162, 255) ;
+}
+
+
+
+.footer {
+    
+  padding: 20px;
+  text-align: center;
+  background:  rgb(0, 162, 255);
+  margin-top: 20px;
+}
+h2{
+  text-align: center;
+  color: red;
+}
+h3{
+  text-align: center;
+  color: green;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+#BuyItem{
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+
+}
+ 
+h1 {
+  color: #000;
+  text-align: center;
+  text-decoration: #000;
+  text-shadow: #fefefe;
+  background: darkgoldenrod;
+}
